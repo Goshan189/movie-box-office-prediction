@@ -1,0 +1,601 @@
+Title,Year,Language,Genre
+Avengers: Infinity War,2018,English,"Adventure, Action"
+Incredibles 2,2018,English,"Action, Adventure"
+Spider-Man: Into the Spider-Verse,2018,English,"Animation, Action"
+Venom,2018,English,"Sci-Fi, Action"
+Ready Player One,2018,English,"Adventure, Action"
+Black Panther,2018,English,"Action, Adventure"
+Jurassic World: Fallen Kingdom,2018,English,"Action, Adventure"
+Hereditary,2018,English,Thriller
+Halloween,2018,English,Thriller
+Mission: Impossible - Fallout,2018,English,"Action, Adventure"
+Terrifier,2018,English,Thriller
+Deadpool 2,2018,English,"Action, Adventure"
+The Grinch,2018,English,Animation
+Maze Runner: The Death Cure,2018,English,"Sci-Fi, Action"
+A Quiet Place,2018,English,Sci-Fi
+The Predator,2018,English,"Sci-Fi, Action"
+The Meg,2018,English,"Action, Sci-Fi"
+Ocean's Eight,2018,English,Action
+The First Purge,2018,English,"Action, Thriller"
+Hotel Transylvania 3: Summer Vacation,2018,English,"Animation, Fantasy"
+Aquaman,2018,English,"Action, Adventure"
+Pacific Rim: Uprising,2018,English,"Action, Fantasy"
+Tomb Raider,2018,English,"Action, Adventure"
+Ralph Breaks the Internet,2018,English,"Animation, Adventure"
+Sicario: Day of the Soldado,2018,English,"Action, Thriller"
+Hunter Killer,2018,English,"Action, Adventure"
+The Equalizer 2,2018,English,"Action, Thriller"
+Upgrade,2018,English,"Action, Thriller"
+Creed II,2018,English,Action
+Bird Box,2018,English,Thriller
+Annihilation,2018,English,Sci-Fi
+Ant-Man and the Wasp,2018,English,"Action, Adventure"
+Alpha,2018,English,Adventure
+Peppermint,2018,English,"Action, Thriller"
+What Keeps You Alive,2018,English,Thriller
+The Strangers: Prey at Night,2018,English,Thriller
+Den of Thieves,2018,English,"Action, Thriller"
+The House That Jack Built,2018,English,Thriller
+Isle of Dogs,2018,English,"Adventure, Animation"
+Redcon-1,2018,English,"Action, Sci-Fi"
+Rampage,2018,English,"Action, Adventure"
+Dystopia,2018,English,Sci-Fi
+Goosebumps 2: Haunted Halloween,2018,English,Fantasy
+The Nutcracker and the Four Realms,2018,English,"Fantasy, Adventure"
+The Lost Viking,2018,English,"Action, Adventure"
+Red Sparrow,2018,English,Thriller
+Mile 22,2018,English,"Action, Thriller"
+City of Lies,2018,English,Thriller
+Truth or Dare,2018,English,Thriller
+Insidious: The Last Key,2018,English,Thriller
+Sorry to Bother You,2018,English,"Fantasy, Sci-Fi"
+Robin Hood,2018,English,"Adventure, Action"
+Overlord,2018,English,Sci-Fi
+Braven,2018,English,"Action, Thriller"
+Bumblebee,2018,English,"Action, Adventure"
+Laboratory Conditions,2018,English,Sci-Fi
+Johnny English Strikes Again,2018,English,"Action, Adventure"
+The Cloverfield Paradox,2018,English,"Thriller, Sci-Fi"
+Early Man,2018,English,"Animation, Adventure"
+6-Headed Shark Attack,2018,English,"Action, Sci-Fi"
+The Darkest Minds,2018,English,"Action, Adventure"
+A Mother's Worst Fear,2018,English,Thriller
+The Girl in the Spider's Web,2018,English,"Action, Thriller"
+Mowgli: Legend of the Jungle,2018,English,Adventure
+An Elephant's Journey,2018,English,Adventure
+Delirium,2018,English,Thriller
+Suicide Squad: Hell to Pay,2018,English,"Sci-Fi, Action"
+LEGO DC Comics Super Heroes: Aquaman - Rage of Atlantis,2018,English,"Animation, Action"
+Ghostland,2018,English,Thriller
+Solo: A Star Wars Story,2018,English,"Sci-Fi, Adventure"
+Death Wish,2018,English,"Action, Thriller"
+12 Feet Deep,2018,English,Thriller
+Fantastic Beasts: The Crimes of Grindelwald,2018,English,"Fantasy, Adventure"
+Axemas 2: Blood Slay,2018,English,Action
+Bad Samaritan,2018,English,Thriller
+Accident Man,2018,English,"Action, Thriller"
+Mortal Engines,2018,English,"Adventure, Sci-Fi"
+Kin,2018,English,"Sci-Fi, Action"
+Widows,2018,English,Thriller
+Prescription for Danger,2018,English,Thriller
+Terminal,2018,English,"Thriller, Action"
+Death Race: Beyond Anarchy,2018,English,"Action, Thriller"
+The Titan,2018,English,"Sci-Fi, Thriller"
+Destined to Ride,2018,English,Adventure
+Edge of Isolation,2018,English,Thriller
+The Last Man,2018,English,"Sci-Fi, Action"
+It Chapter Two,2019,English,Thriller
+Avengement,2019,English,Action
+Spider-Man: Far From Home,2019,English,"Action, Adventure"
+Avengers: Endgame,2019,English,"Adventure, Sci-Fi"
+Joker,2019,English,Thriller
+John Wick: Chapter 3 - Parabellum,2019,English,"Action, Thriller"
+How to Train Your Dragon: The Hidden World,2019,English,"Animation, Adventure"
+Once Upon a Time... in Hollywood,2019,English,Thriller
+Jumanji: The Next Level,2019,English,"Adventure, Fantasy"
+Fast & Furious Presents: Hobbs & Shaw,2019,English,"Action, Adventure"
+The Lion King,2019,English,"Adventure, Animation"
+Frozen II,2019,English,"Animation, Adventure"
+Godzilla: King of the Monsters,2019,English,"Sci-Fi, Action"
+Toy Story 4,2019,English,"Animation, Adventure"
+Polar,2019,English,Action
+Star Wars: The Rise of Skywalker,2019,English,"Adventure, Action"
+Zombieland: Double Tap,2019,English,Action
+Angel Has Fallen,2019,English,"Action, Thriller"
+The Addams Family,2019,English,"Animation, Fantasy"
+1917,2019,English,Action
+Ford v Ferrari,2019,English,Action
+Dark Phoenix,2019,English,"Sci-Fi, Action"
+Alita: Battle Angel,2019,English,"Action, Sci-Fi"
+Maleficent: Mistress of Evil,2019,English,"Fantasy, Adventure"
+Aladdin,2019,English,"Adventure, Fantasy"
+The Angry Birds Movie 2,2019,English,"Animation, Adventure"
+The Secret Life of Pets 2,2019,English,"Adventure, Animation"
+Captain Marvel,2019,English,"Action, Adventure"
+Escape Room,2019,English,Thriller
+Klaus,2019,English,"Animation, Adventure"
+Serenity,2019,English,Thriller
+El Camino: A Breaking Bad Movie,2019,English,Thriller
+Countdown,2019,English,Thriller
+Murder Mystery,2019,English,Action
+Anna,2019,English,"Action, Adventure"
+Triple Frontier,2019,English,"Action, Thriller"
+Us,2019,English,Thriller
+Terminator: Dark Fate,2019,English,"Sci-Fi, Action"
+Rambo: Last Blood,2019,English,"Action, Thriller"
+Abominable,2019,English,"Animation, Adventure"
+Dark Waters,2019,English,Thriller
+Shazam!,2019,English,"Action, Fantasy"
+Real Cases of Shadow People: The Sarah McCormick Story,2019,English,Thriller
+Child's Play,2019,English,Thriller
+How to Train Your Dragon: Homecoming,2019,English,"Animation, Fantasy"
+Doom: Annihilation,2019,English,"Action, Sci-Fi"
+Enhanced,2019,English,"Action, Sci-Fi"
+Midway,2019,English,Action
+The Dead Don't Die,2019,English,"Fantasy, Sci-Fi"
+6 Underground,2019,English,"Action, Thriller"
+Glass,2019,English,"Thriller, Sci-Fi"
+A Dog's Journey,2019,English,Adventure
+Crawl,2019,English,"Thriller, Action"
+Yesterday,2019,English,Fantasy
+Men in Black: International,2019,English,"Sci-Fi, Action"
+Scooby-Doo! Return to Zombie Island,2019,English,"Fantasy, Animation"
+Hellboy,2019,English,"Fantasy, Action"
+Ma,2019,English,Thriller
+Nail in the Coffin: The Fall and Rise of Vampiro,2019,English,Action
+Triple Threat,2019,English,"Thriller, Action"
+Marvel Rising: Battle of the Bands,2019,English,"Animation, Action"
+Pokémon Detective Pikachu,2019,English,"Action, Adventure"
+The Hummingbird Project,2019,English,Thriller
+The Lighthouse,2019,English,"Fantasy, Thriller"
+Dora and the Lost City of Gold,2019,English,Adventure
+The Secret Lives of Cheerleaders,2019,English,Thriller
+Togo,2019,English,Adventure
+Rise of the Footsoldier 4: Marbella,2019,English,Action
+Merry Men 2: Another Mission,2019,English,Action
+We Have Always Lived in the Castle,2019,English,Thriller
+Point Blank,2019,English,"Action, Thriller"
+Uncut Gems,2019,English,Thriller
+Cruel Fixation,2019,English,Thriller
+The Highwaymen,2019,English,Thriller
+LEGO DC Batman: Family Matters,2019,English,"Animation, Action"
+Dumbo,2019,English,"Fantasy, Adventure"
+The Art of Self-Defense,2019,English,Thriller
+Doctor Sleep,2019,English,Fantasy
+Shaft,2019,English,Action
+Get Duked!,2019,English,Action
+Vivarium,2019,English,"Sci-Fi, Thriller"
+Down,2019,English,Thriller
+Danger Close: The Battle of Long Tan,2019,English,Action
+The Courier,2019,English,"Action, Thriller"
+Am I a Serial Killer?,2019,English,Thriller
+The Car: Road to Revenge,2019,English,"Action, Thriller"
+Spider-Man: No Way Home,2021,English,"Action, Adventure"
+The Suicide Squad,2021,English,"Action, Adventure"
+Dune,2021,English,"Sci-Fi, Adventure"
+The Conjuring: The Devil Made Me Do It,2021,English,Thriller
+Nobody,2021,English,"Action, Thriller"
+Girl in the Basement,2021,English,Thriller
+The Tomorrow War,2021,English,"Action, Sci-Fi"
+Tom Clancy's Without Remorse,2021,English,"Action, Thriller"
+Venom: Let There Be Carnage,2021,English,"Sci-Fi, Action"
+Encanto,2021,English,"Animation, Fantasy"
+Wrath of Man,2021,English,Thriller
+Cruella,2021,English,Adventure
+Zack Snyder's Justice League,2021,English,"Action, Adventure"
+Shang-Chi and the Legend of the Ten Rings,2021,English,"Action, Adventure"
+Sing 2,2021,English,Animation
+Free Guy,2021,English,"Adventure, Sci-Fi"
+A Quiet Place Part II,2021,English,"Sci-Fi, Thriller"
+Luca,2021,English,"Animation, Fantasy"
+The Voyeurs,2021,English,Thriller
+No Time to Die,2021,English,"Action, Thriller"
+The Woman in the Window,2021,English,Thriller
+The Matrix Resurrections,2021,English,"Sci-Fi, Action"
+Eternals,2021,English,"Sci-Fi, Action"
+Black Widow,2021,English,"Action, Adventure"
+The Forever Purge,2021,English,"Action, Thriller"
+The King's Man,2021,English,"Action, Adventure"
+Red Notice,2021,English,Action
+The Boss Baby: Family Business,2021,English,"Animation, Adventure"
+F9,2021,English,"Action, Adventure"
+The Green Knight,2021,English,"Adventure, Fantasy"
+Finch,2021,English,"Sci-Fi, Adventure"
+Mortal Kombat,2021,English,"Action, Fantasy"
+Snake Eyes: G.I. Joe Origins,2021,English,"Action, Adventure"
+Godzilla vs. Kong,2021,English,"Action, Sci-Fi"
+LOL Surprise: The Movie,2021,English,Animation
+Don't Look Up,2021,English,Sci-Fi
+Army of the Dead,2021,English,Action
+Wrong Turn,2021,English,Thriller
+Raya and the Last Dragon,2021,English,"Animation, Fantasy"
+PAW Patrol: The Movie,2021,English,"Adventure, Animation"
+Wish Dragon,2021,English,"Animation, Fantasy"
+Infinite,2021,English,"Sci-Fi, Action"
+The Last Duel,2021,English,Action
+Jungle Cruise,2021,English,"Fantasy, Adventure"
+Ghostbusters: Afterlife,2021,English,"Fantasy, Adventure"
+Halloween Kills,2021,English,Thriller
+The Misfits,2021,English,"Action, Thriller"
+Spirit Untamed,2021,English,"Animation, Adventure"
+The Mitchells vs. the Machines,2021,English,"Animation, Adventure"
+Old,2021,English,Thriller
+LEGO Star Wars Terrifying Tales,2021,English,"Animation, Sci-Fi"
+Nightmare Alley,2021,English,Thriller
+Resident Evil: Welcome to Raccoon City,2021,English,"Action, Sci-Fi"
+Gone Mom: The Disappearance of Jennifer Dulos,2021,English,Thriller
+Tom & Jerry,2021,English,Animation
+The Addams Family 2,2021,English,"Animation, Fantasy"
+Old Henry,2021,English,Action
+The Guilty,2021,English,Thriller
+Army of Thieves,2021,English,Action
+VIRGO,2021,English,Adventure
+The Protégé,2021,English,"Action, Thriller"
+Jolt,2021,English,"Action, Thriller"
+Hitman's Wife's Bodyguard,2021,English,"Action, Thriller"
+Boss Level,2021,English,"Action, Sci-Fi"
+Run Hide Fight,2021,English,"Action, Thriller"
+The Ice Road,2021,English,"Action, Thriller"
+Copshop,2021,English,"Thriller, Action"
+Prisoners of the Ghostland,2021,English,"Action, Fantasy"
+Swan Song,2021,English,Sci-Fi
+"The Good, the Bart, and the Loki",2021,English,Animation
+Last Night in Soho,2021,English,Thriller
+A House on the Bayou,2021,English,Thriller
+Day of Destiny,2021,English,Sci-Fi
+Back to the Outback,2021,English,"Animation, Adventure"
+Don't Breathe 2,2021,English,Thriller
+Night Teeth,2021,English,"Thriller, Action"
+The Animators Who've Spent 40 Years on a Single Film,2021,English,Animation
+The Mauritanian,2021,English,Thriller
+Deadly Radio Romance,2021,English,Thriller
+My Little Pony: A New Generation,2021,English,"Animation, Fantasy"
+Awake,2021,English,"Sci-Fi, Thriller"
+Planet Dune,2021,English,"Sci-Fi, Adventure"
+No Sudden Move,2021,English,Thriller
+Deadly Illusions,2021,English,Thriller
+Rogue Hostage,2021,English,"Action, Adventure"
+Rise of the Footsoldier: Origins,2021,English,Action
+The Black Phone,2022,English,Thriller
+Avatar: The Way of Water,2022,English,"Action, Adventure"
+As Good as Dead,2022,English,Action
+Top Gun: Maverick,2022,English,Action
+The Batman,2022,English,Thriller
+Hotel Transylvania: Transformania,2022,English,"Animation, Adventure"
+Everything Everywhere All at Once,2022,English,"Action, Adventure"
+Turning Red,2022,English,"Animation, Fantasy"
+Puss in Boots: The Last Wish,2022,English,"Animation, Adventure"
+The Bad Guys,2022,English,"Adventure, Animation"
+Terrifier 2,2022,English,Thriller
+Doctor Strange in the Multiverse of Madness,2022,English,"Fantasy, Action"
+Sonic the Hedgehog 2,2022,English,"Action, Adventure"
+Bullet Train,2022,English,"Action, Thriller"
+Jurassic World Dominion,2022,English,"Adventure, Action"
+Deep Water,2022,English,Thriller
+Prey,2022,English,"Thriller, Action"
+Hocus Pocus 2,2022,English,Fantasy
+X,2022,English,Thriller
+Thor: Love and Thunder,2022,English,"Fantasy, Action"
+Black Panther: Wakanda Forever,2022,English,"Action, Adventure"
+Black Adam,2022,English,"Action, Adventure"
+Fall,2022,English,Thriller
+The Menu,2022,English,Thriller
+Pearl,2022,English,Thriller
+Moonfall,2022,English,"Sci-Fi, Adventure"
+Luck,2022,English,"Animation, Adventure"
+M3GAN,2022,English,Sci-Fi
+The Northman,2022,English,"Action, Adventure"
+Barbarian,2022,English,Thriller
+The Ice Age Adventures of Buck Wild,2022,English,"Animation, Adventure"
+Morbius,2022,English,"Action, Sci-Fi"
+Fantastic Beasts: The Secrets of Dumbledore,2022,English,"Fantasy, Adventure"
+Minions: The Rise of Gru,2022,English,"Adventure, Animation"
+The School for Good and Evil,2022,English,"Fantasy, Adventure"
+Halloween Ends,2022,English,Thriller
+The Lost City,2022,English,"Action, Adventure"
+Nope,2022,English,"Sci-Fi, Thriller"
+Strange World,2022,English,"Animation, Adventure"
+The Sea Beast,2022,English,"Animation, Adventure"
+The Gray Man,2022,English,"Action, Thriller"
+The Outfit,2022,English,Thriller
+The Exorcism of God,2022,English,Fantasy
+Secret Headquarters,2022,English,"Action, Adventure"
+The Woman King,2022,English,Action
+Memory,2022,English,"Action, Thriller"
+Uncharted,2022,English,"Action, Adventure"
+Curse of Crom: The Legend of Halloween,2022,English,Fantasy
+DC League of Super-Pets,2022,English,"Adventure, Animation"
+Trick or Treat Scooby-Doo!,2022,English,"Adventure, Animation"
+Pinocchio,2022,English,"Fantasy, Adventure"
+"The Boy, the Mole, the Fox and the Horse",2022,English,"Animation, Adventure"
+Orphan: First Kill,2022,English,Thriller
+Sniper: Rogue Mission,2022,English,"Action, Thriller"
+The Adventure of A.R.I.: My Robot Friend,2022,English,Sci-Fi
+The Contractor,2022,English,"Action, Thriller"
+Roald Dahl's Matilda the Musical,2022,English,Fantasy
+Death on the Nile,2022,English,Thriller
+Monster High: The Movie,2022,English,"Fantasy, Adventure"
+Mortal Kombat Legends: Snow Blind,2022,English,"Animation, Action"
+Fresh,2022,English,Thriller
+Section 8,2022,English,"Action, Thriller"
+Heatwave,2022,English,Thriller
+The Adam Project,2022,English,"Adventure, Sci-Fi"
+The Magic Flute,2022,English,"Adventure, Fantasy"
+No Exit,2022,English,Thriller
+How to Live Your Best Death,2022,English,Thriller
+I Came By,2022,English,Thriller
+Buried in Barstow,2022,English,"Thriller, Action"
+The Enforcer,2022,English,Action
+Ambulance,2022,English,"Thriller, Action"
+Paws of Fury: The Legend of Hank,2022,English,"Animation, Adventure"
+The Great Wolf Pack: A Call to Adventure,2022,English,"Adventure, Animation"
+The Huntress: Rune of the Dead,2022,English,Adventure
+The Last Victim,2022,English,"Thriller, Action"
+Guillermo del Toro's Pinocchio,2022,English,"Animation, Fantasy"
+Three Thousand Years of Longing,2022,English,Fantasy
+Dead for a Dollar,2022,English,"Thriller, Action"
+Collide,2022,English,Thriller
+The 355,2022,English,"Action, Adventure"
+Don't Worry Darling,2022,English,"Sci-Fi, Thriller"
+Jurassic World Camp Cretaceous: Hidden Adventure,2022,English,"Action, Adventure"
+Lightyear,2022,English,"Animation, Sci-Fi"
+Violent Night,2022,English,"Action, Fantasy"
+In Space with Markiplier: Part 2,2022,English,"Adventure, Sci-Fi"
+My Father's Dragon,2022,English,"Animation, Adventure"
+Fast X,2023,English,"Action, Thriller"
+The Family Plan,2023,English,Action
+Barbie,2023,English,Adventure
+Spider-Man: Across the Spider-Verse,2023,English,"Animation, Action"
+John Wick: Chapter 4,2023,English,"Action, Thriller"
+Mission: Impossible - Dead Reckoning Part One,2023,English,"Action, Adventure"
+The Super Mario Bros. Movie,2023,English,"Adventure, Animation"
+Guardians of the Galaxy Vol. 3,2023,English,"Sci-Fi, Adventure"
+The Flash,2023,English,"Adventure, Action"
+Elemental,2023,English,"Fantasy, Animation"
+Poor Things,2023,English,Sci-Fi
+Meg 2: The Trench,2023,English,"Action, Sci-Fi"
+Five Nights at Freddy's,2023,English,Thriller
+Migration,2023,English,"Adventure, Animation"
+Operation Fortune: Ruse de Guerre,2023,English,"Action, Thriller"
+Scream VI,2023,English,Thriller
+Ghosted,2023,English,Action
+Evil Dead Rise,2023,English,Thriller
+Transformers: Rise of the Beasts,2023,English,"Sci-Fi, Adventure"
+The Equalizer 3,2023,English,"Action, Thriller"
+Aquaman and the Lost Kingdom,2023,English,"Action, Adventure"
+Indiana Jones and the Dial of Destiny,2023,English,"Adventure, Action"
+Expend4bles,2023,English,"Action, Adventure"
+Wonka,2023,English,Fantasy
+Saltburn,2023,English,Thriller
+Dungeons & Dragons: Honor Among Thieves,2023,English,"Adventure, Fantasy"
+Wish,2023,English,"Animation, Fantasy"
+Teenage Mutant Ninja Turtles: Mutant Mayhem,2023,English,"Animation, Action"
+PAW Patrol: The Mighty Movie,2023,English,"Adventure, Animation"
+Totally Killer,2023,English,Sci-Fi
+The Marvels,2023,English,"Sci-Fi, Adventure"
+Trolls Band Together,2023,English,"Animation, Fantasy"
+Leo,2023,English,Animation
+The Little Mermaid,2023,English,"Adventure, Fantasy"
+Insidious: The Red Door,2023,English,Thriller
+The Creator,2023,English,"Sci-Fi, Action"
+Creed III,2023,English,Action
+Extraction 2,2023,English,"Action, Thriller"
+Ant-Man and the Wasp: Quantumania,2023,English,"Action, Adventure"
+The Wrath of Becky,2023,English,"Action, Thriller"
+Gran Turismo,2023,English,"Adventure, Action"
+Knights of the Zodiac,2023,English,"Fantasy, Action"
+The Wonderful World of Mickey Mouse: Steamboat Silly,2023,English,Animation
+Shazam! Fury of the Gods,2023,English,"Action, Fantasy"
+Freelance,2023,English,Action
+To Catch a Killer,2023,English,Thriller
+Plane,2023,English,"Action, Adventure"
+The Hunger Games: The Ballad of Songbirds & Snakes,2023,English,"Sci-Fi, Adventure"
+The Loch Ness Horror,2023,English,Sci-Fi
+The Last Kingdom: Seven Kings Must Die,2023,English,"Action, Adventure"
+Guy Ritchie's The Covenant,2023,English,"Action, Thriller"
+Blue Beetle,2023,English,"Action, Sci-Fi"
+Chicken Run: Dawn of the Nugget,2023,English,"Animation, Adventure"
+The Killer,2023,English,Thriller
+Sound of Freedom,2023,English,Action
+Influencer,2023,English,Thriller
+The Island,2023,English,"Action, Thriller"
+Last Sentinel,2023,English,"Sci-Fi, Thriller"
+Little Bone Lodge,2023,English,Thriller
+Righteous Thieves,2023,English,"Action, Thriller"
+The Last Voyage of the Demeter,2023,English,Fantasy
+"Ruby Gillman, Teenage Kraken",2023,English,"Animation, Fantasy"
+Teen Wolf: The Movie,2023,English,"Action, Fantasy"
+Kandahar,2023,English,"Action, Thriller"
+The Devil Conspiracy,2023,English,"Fantasy, Sci-Fi"
+Mob Land,2023,English,"Action, Thriller"
+Tetris,2023,English,Thriller
+The Exorcist: Believer,2023,English,Thriller
+Family Switch,2023,English,Fantasy
+The Pope's Exorcist,2023,English,Thriller
+Hidden Strike,2023,English,"Action, Thriller"
+Black Lotus,2023,English,"Action, Thriller"
+Legion of Super-Heroes,2023,English,"Animation, Action"
+Transmorphers: Mech Beasts,2023,English,"Action, Sci-Fi"
+War of the Worlds: The Attack,2023,English,"Sci-Fi, Thriller"
+Diary of a Wimpy Kid Christmas: Cabin Fever,2023,English,Animation
+Dark Harvest,2023,English,"Fantasy, Thriller"
+Once Upon a Studio,2023,English,"Animation, Fantasy"
+Rebel Moon - Part One: A Child of Fire,2023,English,"Sci-Fi, Action"
+The Shepherd,2023,English,"Fantasy, Action"
+The Siege,2023,English,"Action, Thriller"
+No One Will Save You,2023,English,Sci-Fi
+Leave the World Behind,2023,English,Thriller
+All of Us Strangers,2023,English,Fantasy
+Boston Strangler,2023,English,Thriller
+Craig Before the Creek,2023,English,"Animation, Adventure"
+Goldilocks and the Three Bears: Death & Porridge,2024,English,Thriller
+Fight Another Day,2024,English,Action
+The Substance,2024,English,Sci-Fi
+Moana 2,2024,English,"Adventure, Animation"
+Deadpool & Wolverine,2024,English,"Action, Sci-Fi"
+Inside Out 2,2024,English,"Animation, Adventure"
+Gypsy Moon,2024,English,"Fantasy, Thriller"
+Despicable Me 4,2024,English,"Animation, Sci-Fi"
+The Day the Earth Blew Up: A Looney Tunes Movie,2024,English,"Adventure, Animation"
+Sonic the Hedgehog 3,2024,English,"Action, Sci-Fi"
+Venom: The Last Dance,2024,English,"Action, Sci-Fi"
+The Wild Robot,2024,English,"Animation, Sci-Fi"
+Kung Fu Panda 4,2024,English,"Animation, Action"
+Road House,2024,English,"Action, Thriller"
+Wicked,2024,English,Fantasy
+The Beekeeper,2024,English,"Action, Thriller"
+Terrifier 3,2024,English,Thriller
+Kraven the Hunter,2024,English,"Action, Adventure"
+Mufasa: The Lion King,2024,English,"Adventure, Animation"
+Red One,2024,English,"Action, Fantasy"
+Alien: Romulus,2024,English,Sci-Fi
+Stockholm Bloodbath,2024,English,"Action, Adventure"
+Jurassic Triangle,2024,English,"Action, Sci-Fi"
+Get Fast,2024,English,"Action, Thriller"
+Furiosa: A Mad Max Saga,2024,English,"Action, Sci-Fi"
+Godzilla x Kong: The New Empire,2024,English,"Action, Adventure"
+Dune: Part Two,2024,English,"Sci-Fi, Adventure"
+Humane,2024,English,"Sci-Fi, Thriller"
+Bad Boys: Ride or Die,2024,English,"Action, Thriller"
+Nosferatu,2024,English,Fantasy
+The Garfield Movie,2024,English,"Adventure, Animation"
+Gladiator II,2024,English,"Action, Adventure"
+The Strangers: Chapter 1,2024,English,Thriller
+My Freaky Family,2024,English,"Animation, Fantasy"
+Compulsion,2024,English,Thriller
+Angels Fallen: Warriors of Peace,2024,English,"Action, Fantasy"
+Long Distance,2024,English,"Sci-Fi, Action"
+Kingdom of the Planet of the Apes,2024,English,"Sci-Fi, Adventure"
+The Crow,2024,English,"Action, Fantasy"
+Beetlejuice Beetlejuice,2024,English,Fantasy
+The Ministry of Ungentlemanly Warfare,2024,English,Action
+Civil War,2024,English,Action
+Elevation,2024,English,"Action, Sci-Fi"
+Heretic,2024,English,Thriller
+Transformers One,2024,English,"Animation, Sci-Fi"
+Longlegs,2024,English,Thriller
+Carry-On,2024,English,"Thriller, Action"
+Memoir of a Snail,2024,English,Animation
+The Island of Lost Girls,2024,English,"Adventure, Thriller"
+Murder Company,2024,English,Action
+Abigail,2024,English,Thriller
+Subservience,2024,English,"Sci-Fi, Thriller"
+Speak No Evil,2024,English,Thriller
+The Twisters,2024,English,"Action, Adventure"
+Dirty Angels,2024,English,"Action, Thriller"
+Blink Twice,2024,English,Thriller
+Conclave,2024,English,Thriller
+IF,2024,English,Fantasy
+Twisters,2024,English,"Action, Thriller"
+A Quiet Place: Day One,2024,English,"Sci-Fi, Thriller"
+Damsel,2024,English,"Fantasy, Action"
+The Fall Guy,2024,English,Action
+Descendants: The Rise of Red,2024,English,"Fantasy, Adventure"
+Strange Darling,2024,English,Thriller
+Arcadian,2024,English,"Action, Thriller"
+The Green Dinosaur,2024,English,"Animation, Adventure"
+Jackpot!,2024,English,Action
+The Lord of the Rings: The War of the Rohirrim,2024,English,"Animation, Fantasy"
+Land of Bad,2024,English,"Action, Thriller"
+Atlas,2024,English,"Sci-Fi, Action"
+Paddington in Peru,2024,English,Adventure
+Joker: Folie à Deux,2024,English,Thriller
+MaXXXine,2024,English,Thriller
+The Killer's Game,2024,English,"Action, Thriller"
+Werewolves,2024,English,"Action, Thriller"
+Weekend in Taipei,2024,English,"Action, Adventure"
+Electra,2024,English,Thriller
+Immaculate,2024,English,Thriller
+Juror #2,2024,English,Thriller
+Rebel Ridge,2024,English,"Action, Thriller"
+Madame Web,2024,English,"Action, Fantasy"
+Trap,2024,English,Thriller
+Beverly Hills Cop: Axel F,2024,English,Action
+Utopia,2024,English,"Thriller, Action"
+Borderlands,2024,English,"Action, Sci-Fi"
+Ghostbusters: Frozen Empire,2024,English,"Fantasy, Adventure"
+Captain Hook - The Cursed Tides,2025,English,"Adventure, Action"
+War of the Worlds,2025,English,"Sci-Fi, Thriller"
+Stolen Girl,2025,English,"Thriller, Action"
+Hunting Grounds,2025,English,"Action, Thriller"
+The Long Walk,2025,English,"Thriller, Sci-Fi"
+Black Phone 2,2025,English,Thriller
+The Strangers: Chapter 2,2025,English,Thriller
+The Twits,2025,English,"Animation, Fantasy"
+The Toxic Avenger Unrated,2025,English,"Action, Sci-Fi"
+The Fantastic 4: First Steps,2025,English,"Sci-Fi, Adventure"
+The Astronaut,2025,English,"Sci-Fi, Thriller"
+KPop Demon Hunters,2025,English,"Fantasy, Animation"
+The Lost Princess,2025,English,"Action, Adventure"
+Mission: Impossible - The Final Reckoning,2025,English,"Action, Adventure"
+Primitive War,2025,English,Action
+Superman,2025,English,"Sci-Fi, Adventure"
+The Woman in Cabin 10,2025,English,Thriller
+V/H/S/HALLOWEEN,2025,English,Thriller
+Prisoner of War,2025,English,"Action, Thriller"
+TRON: Ares,2025,English,"Sci-Fi, Adventure"
+Night of the Reaper,2025,English,Thriller
+Bambi: The Reckoning,2025,English,Thriller
+The Hand That Rocks the Cradle,2025,English,Thriller
+Jurassic World Rebirth,2025,English,"Sci-Fi, Adventure"
+Vicious,2025,English,Thriller
+Valiant One,2025,English,"Thriller, Action"
+One Battle After Another,2025,English,"Action, Thriller"
+How to Train Your Dragon,2025,English,"Fantasy, Action"
+F1,2025,English,Action
+Gabby's Dollhouse: The Movie,2025,English,"Adventure, Animation"
+The Bad Guys 2,2025,English,"Adventure, Animation"
+Lilo & Stitch,2025,English,"Sci-Fi, Adventure"
+Nobody 2,2025,English,"Action, Thriller"
+A Big Bold Beautiful Journey,2025,English,Fantasy
+Dead of Winter,2025,English,Thriller
+Ballerina,2025,English,"Action, Thriller"
+Elio,2025,English,"Adventure, Animation"
+Ice Road: Vengeance,2025,English,"Action, Thriller"
+The Naked Gun,2025,English,Action
+The Lost Bus,2025,English,Thriller
+M3GAN 2.0,2025,English,"Action, Sci-Fi"
+A Working Man,2025,English,"Action, Thriller"
+The Gorge,2025,English,"Sci-Fi, Thriller"
+The Perfect Neighbor,2025,English,Thriller
+Thunderbolts*,2025,English,"Action, Sci-Fi"
+Red Sonja,2025,English,"Adventure, Action"
+A Minecraft Movie,2025,English,"Fantasy, Adventure"
+Karate Kid: Legends,2025,English,"Action, Adventure"
+I Know What You Did Last Summer,2025,English,Thriller
+Smurfs,2025,English,"Animation, Fantasy"
+Frankenstein,2025,English,Sci-Fi
+Freakier Friday,2025,English,Fantasy
+28 Years Later,2025,English,"Thriller, Sci-Fi"
+Sinners,2025,English,"Action, Thriller"
+Heads of State,2025,English,"Action, Thriller"
+Caught Stealing,2025,English,Thriller
+Predator: Killer of Killers,2025,English,"Animation, Action"
+Eenie Meanie,2025,English,"Thriller, Action"
+Predator: Badlands,2025,English,"Action, Sci-Fi"
+Night Carnage,2025,English,Action
+The Accountant²,2025,English,Thriller
+Good Boy,2025,English,Thriller
+Osiris,2025,English,"Sci-Fi, Action"
+Zootopia 2,2025,English,"Adventure, Animation"
+The Amateur,2025,English,"Thriller, Action"
+Captain America: Brave New World,2025,English,"Action, Thriller"
+The Pickup,2025,English,Action
+Avatar: Fire and Ash,2025,English,"Sci-Fi, Adventure"
+After the Hunt,2025,English,Thriller
+Trust,2025,English,Thriller
+Clown in a Cornfield,2025,English,Thriller
+Highest 2 Lowest,2025,English,Thriller
+Opus,2025,English,Thriller
+Companion,2025,English,"Sci-Fi, Thriller"
+Afterburn,2025,English,"Sci-Fi, Action"
+Hostile Takeover,2025,English,"Action, Thriller"
+The Ritual,2025,English,Thriller
+Dangerous Animals,2025,English,Thriller
+Rumpelstiltskin,2025,English,Fantasy
+Stay,2025,English,Thriller
+Snow White,2025,English,Fantasy
+William Tell,2025,English,"Action, Adventure"
+A Line of Fire,2025,English,"Action, Thriller"
+STRAW,2025,English,Thriller
