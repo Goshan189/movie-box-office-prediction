@@ -4,10 +4,10 @@ from sklearn.impute import KNNImputer
 
 # --- Configuration ---
 # This is the "master" file with all columns
-INPUT_CSV = "dataset/Final_dataset/movies_all_features_processed_v2.csv"
+INPUT_CSV = "dataset/Final_dataset/model_training_dataset_FINAL_WITH_CAST.csv"
 OUTPUT_DIR = "dataset/Final_dataset"
 # This is the final, 100% clean file for model training
-OUTPUT_CSV = os.path.join(OUTPUT_DIR, 'model_training_dataset_FINAL.csv')
+OUTPUT_CSV = os.path.join(OUTPUT_DIR, 'model_training_dataset_FINAL10.csv')
 
 # ==============================================================================
 # FINAL FEATURE SELECTION
@@ -24,6 +24,8 @@ FINAL_COLUMNS_FOR_MODEL = [
     # Power Scores
     'Production_House_Score',
     'Director_Score',
+    'Actor_Score',
+
 
     # Time-Based Features
     'Runtime (min)',

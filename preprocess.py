@@ -1,11 +1,12 @@
 import pandas as pd
 
-INPUT_DATA='dataset/Final_dataset/movies_all_features_processed_v2.csv'
+INPUT_DATA='dataset/Final_dataset/model_training_dataset_FINAL10.csv'
 
 data=pd.read_csv(INPUT_DATA,encoding="latin1")
 
 print(data.shape)
 print(data.columns)
+print(data.isnull().sum())
 #print(data.isnull().sum())
 
 CHECK_COL=[

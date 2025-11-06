@@ -1,112 +1,79 @@
 import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+
 import os
+import joblib
 from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.linear_model import LinearRegression
-from xgboost import XGBRegressor
-from sklearn import metrics
-import joblib  # <-- IMPORTED JOBLIB
+from sklearn.ensemble import RandomForestClassifier
+from xgboost import XGBClassifier
+from lightgbm import LGBMClassifier
+from sklearn.preprocessing import LabelEncoder, StandardScaler
+from sklearn.metrics import accuracy_score, f1_score, precision_score, recall_score
+from sklearn.utils.class_weight import compute_sample_weight
 
 # --- Configuration ---
-INPUT_CSV = "dataset/Final_dataset/model_training_dataset_FINAL.csv"
+INPUT_CSV = "dataset/Final_dataset/model_training_dataset_FINAL10.csv"
 OUTPUT_DIR = "dataset/visuals"
-MODEL_DIR = "dataset/models"  # <-- NEW: Folder to save models
+MODEL_DIR = "dataset/models"
 TARGET_COLUMN = 'Day1_collection_cr'
 
 try:
     df = pd.read_csv(INPUT_CSV)
     df.dropna(subset=[TARGET_COLUMN], inplace=True)
-    print(f"Loaded {len(df)} rows of clean data for training.")
+    print(f"Number rows:{len(df)}")
 
-    # Create output directories
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    os.makedirs(MODEL_DIR, exist_ok=True)  # <-- NEW: Create model folder
+    os.makedirs(MODEL_DIR, exist_ok=True)
 
-    # ==============================================================================
-    # 1. Prepare Data for Modeling (X/y Split)
-    # ==============================================================================
+    # prepare the data
+    bins = [-1, 5, 20, 1000]
+    labels = ['Low (< 5Cr)', 'Medium (5-20Cr)', 'High (> 20Cr)']
+    df['Category'] = pd.cut(df[TARGET_COLUMN], bins=bins, labels=labels)
 
-    y = df[TARGET_COLUMN]
-    X = df.drop(columns=[TARGET_COLUMN])
+    le = LabelEncoder()
+    df['Category_Encoded'] = le.fit_transform(df['Category'])
 
-    # --- NEW: Save the list of feature names ---
+
+    joblib.dump(le, os.path.join(MODEL_DIR, 'label_encoder.pkl'))
+    joblib.dump(labels, os.path.join(MODEL_DIR, 'category_labels.pkl'))
+    y = df['Category_Encoded']
+    X = df.drop(columns=[TARGET_COLUMN, 'Category', 'Category_Encoded'])
     joblib.dump(X.columns.tolist(), os.path.join(MODEL_DIR, 'feature_names.pkl'))
-    print(f"Features (X): {len(X.columns)} columns. Names saved.")
 
-    # ==============================================================================
-    # 2. Create Training and Testing Sets
-    # ==============================================================================
+    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42, stratify=y)
 
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+    scaler = StandardScaler()
+    X_train_scaled = scaler.fit_transform(X_train)
+    joblib.dump(scaler, os.path.join(MODEL_DIR, 'scaler.pkl'))
 
-    # ==============================================================================
-    # 3. Initialize and Train All Models
-    # ==============================================================================
-
-    # --- Model 1: Linear Regression ---
-    print("\nTraining Linear Regression model...")
-    lr_model = LinearRegression()
-    lr_model.fit(X_train, y_train)
-
-    # --- Model 2: Random Forest ---
-    print("\nTraining Random Forest model...")
-    rf_model = RandomForestRegressor(n_estimators=100, random_state=42)
+    rf_model = RandomForestClassifier(n_estimators=100, random_state=42, class_weight='balanced')
     rf_model.fit(X_train, y_train)
 
-    # --- Model 3: XGBoost ---
-    print("\nTraining XGBoost model...")
-    xgb_model = XGBRegressor(n_estimators=100, random_state=42, objective='reg:squarederror')
-    xgb_model.fit(X_train, y_train)
-    print("All models trained.")
+    sample_weights = compute_sample_weight(class_weight='balanced', y=y_train)
+    xgb_model = XGBClassifier(n_estimators=100, random_state=42, eval_metric='mlogloss')
+    xgb_model.fit(X_train, y_train, sample_weight=sample_weights)
 
-    # ==============================================================================
-    # 4. Evaluate Model Performance (The "Leaderboard")
-    # ==============================================================================
+    lgbm_model = LGBMClassifier(n_estimators=100, random_state=42, class_weight='balanced', verbose=-1)
+    lgbm_model.fit(X_train, y_train)
 
-    y_pred_lr = lr_model.predict(X_test)
-    y_pred_rf = rf_model.predict(X_test)
-    y_pred_xgb = xgb_model.predict(X_test)
+    print("\n--- Model Comparison ---")
+    models = {'Random Forest': rf_model, 'XGBoost': xgb_model, 'LightGBM': lgbm_model}
+    results = []
 
-    print("\n--- Model Performance Metrics (on Test Set) ---")
-
-    results = {
-        'Model': ['Linear Regression', 'Random Forest', 'XGBoost'],
-        'R-squared ($R^2$)': [
-            metrics.r2_score(y_test, y_pred_lr),
-            metrics.r2_score(y_test, y_pred_rf),
-            metrics.r2_score(y_test, y_pred_xgb)
-        ],
-        'Mean Absolute Error (MAE)': [
-            metrics.mean_absolute_error(y_test, y_pred_lr),
-            metrics.mean_absolute_error(y_test, y_pred_rf),
-            metrics.mean_absolute_error(y_test, y_pred_xgb)
-        ],
-        'Root Mean Squared Error (RMSE)': [
-            np.sqrt(metrics.mean_squared_error(y_test, y_pred_lr)),
-            np.sqrt(metrics.mean_squared_error(y_test, y_pred_rf)),
-            np.sqrt(metrics.mean_squared_error(y_test, y_pred_xgb))
-        ]
-    }
+    for name, model in models.items():
+        y_pred = model.predict(X_test)
+        results.append({
+            'Model': name,
+            'Accuracy': accuracy_score(y_test, y_pred),
+            'F1-Score (W)': f1_score(y_test, y_pred, average='weighted'),
+            'Precision (W)': precision_score(y_test, y_pred, average='weighted', zero_division=0),
+            'Recall (W)': recall_score(y_test, y_pred, average='weighted')
+        })
+        joblib.dump(model, os.path.join(MODEL_DIR, f'{name.lower().replace(" ", "_")}_model.pkl'))
 
     results_df = pd.DataFrame(results)
-    print(results_df.to_string(index=False))
-
-    # --- NEW: Save the results table ---
-    results_df.to_csv(os.path.join(OUTPUT_DIR, 'model_performance_metrics.csv'), index=False)
-    print("\nModel performance metrics saved.")
-
-    # ==============================================================================
-    # 5. --- NEW: SAVE THE TRAINED MODELS ---
-    # ==============================================================================
-
-    joblib.dump(lr_model, os.path.join(MODEL_DIR, 'linear_regression_model.pkl'))
-    joblib.dump(rf_model, os.path.join(MODEL_DIR, 'random_forest_model.pkl'))
-    joblib.dump(xgb_model, os.path.join(MODEL_DIR, 'xgboost_model.pkl'))
-
-    print(f"\nAll 3 models have been saved to the '{MODEL_DIR}' folder.")
+    print(results_df)
+    results_df.to_csv(os.path.join(OUTPUT_DIR, 'model_comparison_results.csv'), index=False)
+    print(f"\n✅ Training complete. Artifacts saved to '{MODEL_DIR}' and '{OUTPUT_DIR}'.")
 
 except Exception as e:
-    print(f"An unexpected error occurred: {e}")
+    print(f"An error occurred: {e}")
