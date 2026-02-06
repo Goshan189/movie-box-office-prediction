@@ -64,12 +64,3 @@ Key outputs are stored in [dataset](dataset):
 4. **Clean + engineer features** → [popularity_score.py](popularity_score.py), [preprocess.py](preprocess.py)
 5. **Select final columns** → [final_coln_selection.py](final_coln_selection.py)
 6. **Train and compare models** → [model_training.py](model_training.py)
-
-## Notes
-
-- All file paths are relative to the project root.
-- API keys are hard‑coded in scripts and should be moved to environment variables before sharing publicly.
-
----
-
-If you want this README expanded with setup instructions, environment requirements, or step‑by‑step commands, tell me and I’ll add them.
