@@ -3,7 +3,7 @@ import requests
 import time
 
 # --- Configuration ---
-API_KEY = "9e679601ed5bca8322fc8c59bbf87412"  # ❗ PASTE YOUR API KEY HERE
+API_KEY = "YOUR_TMDB_API_KEY_HERE" 
 INPUT_CSV = 'dataset/hindi_movies_boxoffice.csv'
 OUTPUT_CSV = 'dataset/hindi_movies_boxoffice2.csv'
 BASE_URL = "https://api.themoviedb.org/3"

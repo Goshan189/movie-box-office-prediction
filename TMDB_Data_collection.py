@@ -15,7 +15,7 @@ USD_TO_INR_RATE = 83.50
 # --- Configuration ---
 INPUT_CSV = 'dataset/hindi_movies_features_Completed.csv'
 OUTPUT_CSV = 'dataset/hindi_movies_features_Completed2.csv'
-API_KEY = "9e679601ed5bca8322fc8c59bbf87412"   # ❗ PASTE YOUR TMDB API KEY HERE
+API_KEY = "YOUR_TMDB_API_KEY_HERE"
 BASE_URL_TMDB = "https://api.themoviedb.org/3"
 GOOGLE_SEARCH_URL = "https://www.google.com/search?q="
 BH_BASE_URL = 'https://www.bollywoodhungama.com'
